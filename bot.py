@@ -1,16 +1,6 @@
 import telebot, datetime, json
 # 🔗 تنظیم Webhook برای ربات
-import requests
-
-TOKEN = '8099196414:AAFUYCNnj9vq-h4MScsLPSuIcHNUzySWmQ0'
-WEBHOOK_URL = 'https://your-app-name.onrender.com/' + TOKEN
-
-set_webhook_url = f'https://api.telegram.org/bot{TOKEN}/setWebhook?url={WEBHOOK_URL}'
-response = requests.get(set_webhook_url)
-
-print("Webhook response:", response.text)
-
-#Инициализируем нашего бота с помощью токена
+Инициализируем нашего бота с помощью токена
 
 bot = telebot.TeleBot('1164454988:AAFp16EGtxYPl8yF3fOtH1ZkHl1Bm9PrVC4')
 
