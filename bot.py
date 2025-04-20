@@ -1,6 +1,5 @@
 import telebot, datetime, json
 # 🔗 تنظیم Webhook برای ربات
-Инициализируем нашего бота с помощью токена
 
 bot = telebot.TeleBot('1164454988:AAFp16EGtxYPl8yF3fOtH1ZkHl1Bm9PrVC4')
 
